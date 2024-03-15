@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+main{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+}
+.result{
+    width: 200px;
+    height: 400px;
+}
+.summary{
+    width: 200px;
+    height: 400px;
+}

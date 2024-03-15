@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            background-color: rgb(19, 19, 19);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(33, 33, 255);
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: azure;
+        }
+        a:active{
+            text-decoration: underline;
+            color: rgb(140, 148, 148);
+        }
+        a::after{
+            content: ' (link)';
+            color: rgb(165, 122, 42);
+        }
+        a:visited{
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+        <li><a href="https://www.reddit.com" target="_blank">Reddit</a></li>
+        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+    </ul>
+</body>
+</html>
